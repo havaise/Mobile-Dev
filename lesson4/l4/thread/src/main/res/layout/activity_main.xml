@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="48dp">
+
+        <TextView
+            android:id="@+id/tvThreadInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thread info"
+            android:textSize="16sp"
+            android:paddingBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etLessons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total lessons per month"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etDays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Study days"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/buttonCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Calculate in background" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Result"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

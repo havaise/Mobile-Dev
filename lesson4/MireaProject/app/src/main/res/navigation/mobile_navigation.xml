@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.malyshev.mireaproject.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.malyshev.mireaproject.ui.data.DataFragment"
+        android:label="Data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.malyshev.mireaproject.ui.webview.WebViewFragment"
+        android:label="WebView"
+        tools:layout="@layout/fragment_web_view" />
+
+    <fragment
+        android:id="@+id/nav_background"
+        android:name="ru.mirea.malyshev.mireaproject.ui.background.BackgroundTaskFragment"
+        android:label="Background Task"
+        tools:layout="@layout/fragment_background_task" />
+
+</navigation>
