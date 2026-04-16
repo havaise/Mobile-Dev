@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textAudioInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Голосовая заметка: Малышев, БСБО-08-23. №15"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="24dp" />
+
+    <Button
+        android:id="@+id/buttonRecordAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Начать запись. БСБО-08-23. №15" />
+
+    <Button
+        android:id="@+id/buttonPlayAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Воспроизвести" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мобильная разработка"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мобильная разработка — это создание приложений для смартфонов и планшетов. Она включает проектирование интерфейсов, программирование логики приложения, работу с сетью, локальным хранением данных и тестированием."
+            android:textSize="18sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ключевые технологии:"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Java / Kotlin\n• XML / Material Design\n• Activity и Fragment\n• Intents\n• SQLite / Room\n• REST API\n• Git"
+            android:textSize="18sp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Почему это важно:"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мобильные приложения используются в банковской сфере, онлайн-обучении, навигации, медицине, электронной коммерции и развлечениях. Поэтому разработка под Android остаётся востребованным направлением."
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
